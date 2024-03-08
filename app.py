@@ -16,7 +16,7 @@ if hist_button: # al hacer clic en el boton
     fig = px.histogram(car_data, x="odometer")
 
     # mostrar un grafico Ploty interactivo
-    st.ploty_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True)
 
 if scatter_button: # al hacer clic en el segundo botón
     # escribir un mensaje
